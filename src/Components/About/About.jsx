@@ -3,7 +3,7 @@ import './About.css'
 import extra1 from '../../assets/img/extra1.webp'
 import Samuel1 from '../../assets/img/Samuel1.png'
 import Mustapha1 from '../../assets/img/Mustapha1.jfif'
-import eritwo from '../../assets/img/eritwo.jpg'
+// import eritwo from '../../assets/img/eritwo.jpg'
 import Fawaz1 from '../../assets/img/Fawaz1.jfif'
 import Counter from '../Counter/Counter'
 import BackToTop from "../BackToTop/BackToTop";
@@ -65,13 +65,13 @@ const About = () => {
                 </div>
             </div>
 
-            <div class="members-section-divcard1">
+            {/* <div class="members-section-divcard1">
                 <div class="members-section-divcard1-image"><img src={eritwo} class="members-section-divcard1-image1"/></div>
                 <div class="members-section-divcard1-text">
                     <p>Amole Erioluwa</p>
                   <p style={{'color': 'rgb(85,37,4)'}}>Data Manager</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 
