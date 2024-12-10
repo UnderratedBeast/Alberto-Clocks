@@ -1,0 +1,243 @@
+.product-hero_section {
+  background: url("https://images.unsplash.com/photo-1605143185672-f4f5c892dda4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed;
+}
+.product-hero_section p {
+    color: white;
+    padding-top: 40vh;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px white;
+  }
+
+  .product-section {
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+  
+  }
+  
+  .product-section-header .header1{
+    text-align: center;
+    font-size: 40px;
+    
+      margin-bottom: 0;
+  }
+  .product-section-header .header2{
+      font-size: 20px;
+      color: rgb(85, 37, 4);
+      text-align: center;
+     margin-top: 0;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+  }
+  .product-section-cards{
+      display: flex;
+      margin-top: 0;
+      justify-content: space-between;
+  }
+  .product-section-card1-image{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 24%;
+  
+  }
+ 
+  .product-section-card1-image img{
+      width: 100%;
+      height: 400px;
+      object-fit: contain;
+      -webkit-filter: blur(.2px);
+    filter: blur(3px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .product-section-card1-image:hover img{
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    }
+  .product-section-card1-button{
+      width: 70%;
+      text-align: center;
+      position: relative;
+      bottom: 130px;
+      left: 15%;
+      padding: 7px 10px;
+      border: #fff;
+      font-size: 17px;
+      background-color: white;
+      color: black;
+      transition: .5s;
+  }
+  .product-section-card1-button:hover{
+  font-size: 19px;
+  }
+  .product-section-card1-button a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .btns{
+   color: rgb(85, 37, 4);
+   background-color: transparent;
+   border: 2px solid rgb(85, 37, 4);
+   border-radius: 0;
+   font-size: 15px;
+   margin-top: 15px;
+   margin-bottom: 40px;
+   margin-right: 3px;
+    /* background-color: rgb(82, 52, 13); */
+ }
+ .btns:hover{
+  color: white;
+  background-color: rgb(85, 37, 4);
+  border: 2px solid rgb(85, 37, 4);
+ }
+  .watches-con{
+    padding-left: 8%;
+    padding-right: 8%;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .watch-header{
+    font-size: 28px;
+    margin-bottom: 10px;
+   
+  }
+  .watch-sub-header-con{
+    display: flex;
+    flex-direction: row;
+  }
+  .watch-sub-header-con p{
+    margin-right: 15px;
+    font-size: 22px;
+  }
+  .div-con{
+    justify-content: space-between;
+
+  }
+  .divcard1{
+    width: 24%;
+    margin-top: 15px;
+  }
+  .divcard1-btn{
+    background-color: transparent;
+    color: rgb(85, 37, 4);
+    border: 2px solid rgb(85, 37, 4);
+    font-weight: 600;
+    border-radius: 0;
+  }
+  .divcard1-btn:hover{
+    color: #fff;
+    background-color: rgb(85, 37, 4);
+    border: 2px solid rgb(85, 37, 4);
+    font-weight: 600;
+  }
+
+.custom-modal {
+  max-width: 60%; /* Reduce width by 20% */
+  max-height: 80vh; /* Adjust height as needed */
+}
+.custom-modal .modal-content {
+  height: auto; /* Allow height to adjust based on content */
+}
+.modal-body {
+  display: flex;
+  flex-direction: column; /* Default to column for mobile */
+}
+.modal-body .image-container {
+  flex: 1; /* Allow the image container to grow */
+  display: flex;
+  justify-content: center; /* Center the image */
+}
+.modal-body .info-container {
+  flex: 1; /* Allow the info container to grow */
+  display: flex;
+  flex-direction: column; /* Stack price and description vertically */
+  justify-content: center; /* Center content vertically */
+}
+.cart-btns{
+  background-color: rgb(85, 37, 4);
+  color: white;
+  font-weight: 400;
+  transition: 1s;
+  border: 2px solid rgb(85, 37, 4);
+}
+.cart-btns:hover{
+  background-color: #fff;
+  color: rgb(85, 37, 4);
+  font-weight: 400;
+  border: 2px solid rgb(85, 37, 4);
+}
+.wish-btns{
+  background-color: #fff;
+  color: rgb(85, 37, 4);
+  font-weight: 400;
+  transition: 1s;
+  border: 2px solid rgb(85, 37, 4);
+}
+.wish-btns:hover{
+  background-color: rgb(85, 37, 4);
+  color: white;
+  font-weight: 400;
+  border: 2px solid rgb(85, 37, 4);
+  
+}
+@media (min-width: 768px) {
+  .modal-body {
+    flex-direction: row; /* Change to row for tablets and laptops */
+  }
+  .modal-body .image-container {
+    margin-right: 20px; /* Add some space between image and info */
+  }
+}
+@media (max-width: 1300px) {
+  .divcard1{
+    width: 33%;
+  }
+}
+@media (max-width: 1000px) {
+  .divcard1{
+    width: 48%;
+  }
+  .product-section-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .product-section-card1-image{
+    width: 100%;
+    
+    flex-wrap: wrap;
+  }
+  .product-section-card1-button{
+    width: 40%;
+    margin-left: 15%;
+    bottom: 80px;
+  }
+}
+@media (max-width: 600px) {
+  .divcard1{
+    width: 100%;
+  }
+  .product-hero_section p{
+    font-size: 70px;
+  }
+}
+@media (max-width: 500px) {
+  .product-hero_section p{
+    font-size: 60px;
+  }
+}
+@media (max-width: 420px) {
+  .product-hero_section p{
+    font-size: 46px;
+  }
+}
+

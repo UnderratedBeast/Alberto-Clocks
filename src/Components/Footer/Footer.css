@@ -1,0 +1,253 @@
+footer {
+    margin-top: 20px;
+    background-color: rgb(85, 37, 4);
+    color: #fff;
+    padding: 40px 0;
+    /* height: 70vh; */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    align-items: center;
+    /* margin-top: 0; */
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-column .logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 3px;
+    display: block;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.email-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.email-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.email-form button {
+    background-color: #fff;
+    color: rgb(85, 37, 4);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    background-color: #fff;
+    color: rgb(85, 37, 4);
+    width: 35px;
+    height: 35px;
+    padding-left: 7px;
+    /* padding-bottom: 15px; */
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.social-icons i {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.news-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.news-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.news-info a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.news-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-column p i {
+    margin-right: 5px;
+}
+
+.footer-column .line {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 6px 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .footer-column {
+        padding: 20px 0;
+    }
+
+    .email-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .email-form button {
+        display: none;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .footer-column p, 
+    .footer-column a {
+        font-size: 14px;
+    }
+
+    .news-item img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 0 10px;
+    }
+
+    .footer-column {
+        padding: 10px 0;
+    }
+
+    .email-form input {
+        width: 100%;
+    }
+
+    .footer-column h3 {
+        font-size: 18px;
+    }
+
+    .social-icons {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        font-size: 18px;
+    }
+
+    .news-item img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer-column p, 
+    .footer-column a {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        margin-top: 5%;
+        padding: 30px 0;
+    }
+
+    .footer-column {
+        padding: 5px 0;
+    }
+
+    .email-form input {
+        width: calc(100% - 20px);
+    }
+
+    .footer-column h3 {
+        font-size: 18px;
+    }
+
+    .footer-column p, 
+    .footer-column a {
+        font-size: 12px;
+    }
+
+    .social-icons a {
+        font-size: 16px;
+    }
+
+    .news-item img {
+        width: 50px;
+        height: 50px;
+    }
+}
