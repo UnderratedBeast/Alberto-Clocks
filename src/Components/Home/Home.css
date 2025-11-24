@@ -167,53 +167,108 @@ margin-bottom: 0;
   color: white;
   font-weight: 700;
 }
-.store-locator-extra{
-    width: 100%;
 
-    margin: 100px 0;
-    margin-bottom: 0;
-}
-.store-locator-extra-image{
+/* ====================== STORE LOCATOR – Clean & Short ====================== */
+.store-locator-extra {
+  margin: 100px 0;
   width: 100%;
-  /* background-attachment: fixed; */
 }
-.store-locator-extra-text{
+
+.store-locator-wrapper {
   position: relative;
-  bottom: 260px;
+  height: 45vh;              /* Short but elegant height */
+  overflow: hidden;
+}
+
+.store-locator-image {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  object-fit: cover;         /* Keeps image nice without distortion */
+  display: block;
+}
+
+.store-locator-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  z-index: 2;
+  width: 90%;
+  max-width: 900px;
 }
-.store-locator-extra-text div{
-  /* background-color: white;
-  border: 2px green solid; */
+
+/* Dark overlay for readability */
+.store-locator-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.48);
+  z-index: 1;
 }
-.store-locator-extra-text div a{
-  text-decoration: none;
+
+.store-locator-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+}
+
+.store-locator-subtitle {
+  font-size: 2.8rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin: 0 0 24px 0;
+  line-height: 1.2;
+}
+
+.store-locator-btn {
+  background: transparent;
   color: white;
-  border: 3px red solid;
-  padding: 9px 8px;
-  border: 2px white solid;
-  font-size: 15px;
+  border: 2px solid white;
+  padding: 12px 32px;
+  font-size: 1rem;
+  font-weight: 600;
   letter-spacing: 2px;
-  transition: .3s;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
 }
-.store-locator-extra-text1{
-  font-size: 20px;
-}
-.store-locator-extra-text2{
-  font-size: 45px;
-  letter-spacing: 4px;
-}
-.store-locator-extra-text button{
-  padding: 9px 8px;
-  border: 2px white solid;
-  font-size: 15px;
-  letter-spacing: 2px;
-}
-.store-locator-extra-text div a:hover{
-  background-color: #fff;
+
+.store-locator-btn:hover {
+  background: white;
   color: black;
 }
+
+/* Responsive */
+@media (max-width: 992px) {
+  .store-locator-wrapper { height: 40vh; }
+  .store-locator-subtitle { font-size: 2.4rem; }
+}
+
+@media (max-width: 768px) {
+  .store-locator-wrapper { height: 38vh; }
+  .store-locator-title { font-size: 1.5rem; }
+  .store-locator-subtitle { font-size: 2.1rem; }
+  .store-locator-btn { padding: 10px 28px; font-size: 0.95rem; }
+}
+
+@media (max-width: 576px) {
+  .store-locator-wrapper { height: 35vh; }
+  .store-locator-title { font-size: 1.3rem; }
+  .store-locator-subtitle { font-size: 1.8rem; }
+  .store-locator-btn { padding: 10px 24px; }
+}
+
+@media (max-width: 480px) {
+  .store-locator-title { font-size: 1.1rem; }
+  .store-locator-subtitle { font-size: 1.6rem; }
+}
+
 .our-blog_section{
   /* margin-top: 100px; */
   margin-bottom: 50px;
@@ -616,3 +671,4 @@ width: 100%;
     width: 50%;
   }
 }
+

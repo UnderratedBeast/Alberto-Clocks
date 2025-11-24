@@ -58,40 +58,58 @@ function Products() {
       <div className="product-hero_section">
         <p> PRODUCTS</p>
       </div>
-      <div class="product-section" id="product_id">
-        <div class="product-section-header">
-          <p class="header1 nunito-header">PRODUCTS</p>
-          <p class="header2">Shop By Brand</p>
-        </div>
-        <div class="product-section-cards">
-          <div class="product-section-card1-image">
-            <img src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/09/banner-9.png" />
-            <button class="product-section-card1-button rolex-button nunito-header">
-              <a href="#rolex_id">ROLEX</a>
-            </button>
-          </div>
+      <div className="product-section" id="product_id">
+  <div className="product-section-header">
+    <p className="header1 nunito-header">PRODUCTS</p>
+    <p className="header2">Shop By Brand</p>
+  </div>
 
-          <div class="product-section-card1-image">
-            <img src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/banner-10-1.jpg" />
-            <button class="product-section-card1-button bulova-button nunito-header">
-            <a href="#bulova_id"> BULOVA</a>
-            </button>
-          </div>
+  <div className="product-section-cards">
+    {/* ROLEX */}
+    <div className="product-section-card1-image">
+      <img 
+        src="https://i.pinimg.com/736x/59/88/45/59884592151a51dea2d792f0ec3bed8b.jpg" 
+        alt="Luxury Rolex Watches" 
+      />
+      <button className="product-section-card1-button rolex-button nunito-header">
+        <a href="#rolex_id">ROLEX</a>
+      </button>
+    </div>
 
-          <div class="product-section-card1-image">
-            <img src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/cat-4.png" />
-            <button class="product-section-card1-button micheal_kors-button nunito-header">
-            <a href="#micheal_id">MICHEAL KORS</a>
-            </button>
-          </div>
-          <div class="product-section-card1-image">
-            <img src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/cat-1.png" />
-            <button class="product-section-card1-button citizen-button nunito-header">
-            <a href="#citizen_id"> CITIZEN ECO-DRIVE</a>
-            </button>
-          </div>
-        </div>
-      </div>
+    {/* BULOVA */}
+    <div className="product-section-card1-image">
+      <img 
+        src="https://i.pinimg.com/736x/99/3d/b9/993db94aaeb86a0ca39a925bf9ba9a6a.jpg" 
+        alt="Classic Bulova Watches" 
+      />
+      <button className="product-section-card1-button bulova-button nunito-header">
+        <a href="#bulova_id">BULOVA</a>
+      </button>
+    </div>
+
+    {/* MICHAEL KORS */}
+    <div className="product-section-card1-image">
+      <img 
+        src="https://i.pinimg.com/736x/dd/6d/9d/dd6d9d80862c21c48e1040e9dbd650cf.jpg" 
+        alt="Fashionable Michael Kors Watches" 
+      />
+      <button className="product-section-card1-button micheal_kors-button nunito-header">
+        <a href="#micheal_id">MICHAEL KORS</a>
+      </button>
+    </div>
+
+    {/* CITIZEN ECO-DRIVE */}
+    <div className="product-section-card1-image">
+      <img 
+        src="https://i.pinimg.com/1200x/72/83/9c/72839c2dbc574a208c54a35c036e6546.jpg" 
+        alt="Citizen Eco-Drive Solar Watches" 
+      />
+      <button className="product-section-card1-button citizen-button nunito-header">
+        <a href="#citizen_id">CITIZEN ECO-DRIVE</a>
+      </button>
+    </div>
+  </div>
+</div>
       <div className="watches-con">
         <div className="watch-header-con">
           <p className="watch-header nunito-header" id="rolex_id">ROLEX WATCHES</p>

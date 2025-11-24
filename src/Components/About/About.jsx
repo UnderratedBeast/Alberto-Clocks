@@ -61,7 +61,7 @@ const About = () => {
                 <div class="members-section-divcard1-image"><img src={Fawaz1} class="members-section-divcard1-image1"/></div>
                 <div class="members-section-divcard1-text">
                     <p >Fawaz</p>
-                    <p style={{'color': 'rgb(85,37,4)'}}>Goods Distributor</p>
+                    <p style={{'color': 'rgb(85,37,4)'}}>General Manager</p>
                 </div>
             </div>
 

@@ -130,23 +130,44 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="store-locator-extra">
+       {/* Store Locator - FIXED */}
+      {/* <div className="store-locator-extra">
         <img
-          src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/back.jpg"
-          class="store-locator-extra-image"
+          src="https://i.pinimg.com/1200x/57/ca/6e/57ca6ec38773a9539342f84c75689bc2.jpg"
+          alt="Visit Our Store"
+          className="store-locator-extra-image"
         />
-        <div class="store-locator-extra-text">
-          <p class="store-locator-extra-text1">
+        <div className="store-locator-overlay"></div>
+        <div className="store-locator-extra-text">
+          <p className="store-locator-extra-text1">
             NEED A CLOSER LOOK? COME VISIT US IN STORE
           </p>
-          <p class="store-locator-extra-text2">Your specialist watch store</p>
-          <div>
+          <p className="store-locator-extra-text2">Your specialist watch store</p>
           <Nav.Link href="/contact">
-            <a href="#">STORE LOCATOR</a>{" "}
+            <button className="store-locator-btn">STORE LOCATOR</button>
           </Nav.Link>
-          </div>
         </div>
-      </div>
+      </div> */}
+
+      {/* Store Locator – Clean & Short */}
+<div className="store-locator-extra">
+  <div className="store-locator-wrapper">
+    <img
+      src="https://i.pinimg.com/1200x/57/ca/6e/57ca6ec38773a9539342f84c75689bc2.jpg"
+      alt="Visit our store"
+      className="store-locator-image"
+    />
+    <div className="store-locator-content">
+      <p className="store-locator-title">
+        NEED A CLOSER LOOK? COME VISIT US IN STORE
+      </p>
+      <p className="store-locator-subtitle">Your specialist watch store</p>
+      <Nav.Link href="/contact">
+        <button className="store-locator-btn">STORE LOCATOR</button>
+      </Nav.Link>
+    </div>
+  </div>
+</div>
 
       <section class="reviews">
         <h1 className="nunito-header">REVIEWS</h1>
@@ -245,7 +266,7 @@ const Home = () => {
           <div class="our-blog-divcard1">
             <div>
               <img
-                src="https://catier-store-demo.myshopify.com/cdn/shop/articles/blog2_1024x1024.jpg?v=1704512053"
+                src="https://i.pinimg.com/1200x/be/41/6d/be416d8676334f7fa3c13e0f585fc486.jpg"
                 class="our-blog-divcard1-img"
               />
             </div>
@@ -261,7 +282,7 @@ const Home = () => {
           <div class="our-blog-divcard1">
             <div>
               <img
-                src="https://catier-store-demo.myshopify.com/cdn/shop/articles/blog5_1024x1024.jpg?v=1704512484"
+                src="https://i.pinimg.com/1200x/ac/33/35/ac3335ef1ea288be1467c10fc8249461.jpg"
                 class="our-blog-divcard1-img"
               />
             </div>
@@ -277,7 +298,7 @@ const Home = () => {
           <div class="our-blog-divcard1">
             <div>
               <img
-                src="https://catier-store-demo.myshopify.com/cdn/shop/articles/blog4_1024x1024.jpg?v=1704512308"
+                src="https://i.pinimg.com/1200x/57/ca/6e/57ca6ec38773a9539342f84c75689bc2.jpg"
                 class="our-blog-divcard1-img"
               />
             </div>
