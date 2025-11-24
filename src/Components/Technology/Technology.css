@@ -1,0 +1,279 @@
+.technology-hero_section {
+    background: url("https://images.unsplash.com/photo-1631639025327-2fb8752ec258?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 75vh;
+    background-repeat: no-repeat;
+    margin-bottom: 90px;
+    background-attachment: fixed;
+    
+  }
+  .technology-hero_section h2 {
+    color: white;
+    padding-top: 40vh;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px white;
+  }
+
+  .watch-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    max-width: 1300px;
+    min-height: 50vh;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url("https://www.citizenwatch.com/dw/image/v2/BBQB_PRD/on/demandware.static/-/Sites-citizen_US-Library/default/dw4e7df8b3/technology-images/hero-images/hero-technology-eco-drive-desktop-sp24.jpg?sw=1440&sfrm=jpg&q=80");
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+  }
+  
+  .watch-content {
+    max-width: 50%;
+  }
+  
+  .watch-content h2 {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    color: rgb(85, 37, 4);
+  }
+  
+  .watch-content p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .watch-content button {
+    background-color: transparent;
+    color: rgb(85, 37, 4);
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid rgb(85, 37, 4) ;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .watch-content button:hover {
+    text-decoration: underline;
+    background-color: #fff;
+  }
+  
+  span {
+    color: rgb(85, 37, 4);
+  }
+  
+  .BGI-3{
+    background-image: url("https://www.citizenwatch.com/dw/image/v2/BBQB_PRD/on/demandware.static/-/Sites-citizen_US-Library/default/dw9fd3739f/technology-images/hero-images/hero-technology-super-titanium-desktop-sp24.jpg?sw=1440&sfrm=jpg&q=80");
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    max-width: 1300px;
+    min-height: 50vh;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .BGI-4{
+    background-image: url("https://www.citizenwatch.com/dw/image/v2/BBQB_PRD/on/demandware.static/-/Sites-citizen_US-Library/default/dwaf271c9e/technology-images/hero-images/hero-technology-atomic-timekeeping-desktop-sp24.jpg?sw=1440&sfrm=jpg&q=80");
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    max-width: 1300px;
+    min-height: 50vh;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .BGI-5{
+    background-image: url("https://www.citizenwatch.com/dw/image/v2/BBQB_PRD/on/demandware.static/-/Sites-citizen_US-Library/default/dwa0c030a2/technology-images/hero-images/hero-technology-satellite-wave-gps-desktop-sp24.jpg?sw=1440&sfrm=jpg&q=80");
+    background-position: 45% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    max-width: 1300px;
+    min-height: 50vh;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .watch-brand h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    gap: 20px;
+  }
+  
+  .product-content {
+    flex: 1;
+  }
+  
+  .product-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(85, 37, 4);
+  }
+  
+  .product-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .product-content ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .product-content strong {
+    color: rgb(85, 37, 4);
+  }
+  
+  .product-image {
+    max-width: 150px;
+  }
+  
+  .product-image img {
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  /* @media (max-width: ) */
+  
+  @media (max-width: 768px) {
+    .BGI-1 h1 {
+      font-size: 50px;
+    }
+    .watch-card, .BGI-3, .BGI-5,.BGI-4 {
+      background-blend-mode: darken; 
+      background-color: rgba(0, 0, 0, 0.1);
+      border-radius: 0;
+    }
+  
+    .watch-content {
+        max-width: 100%;
+    }
+  
+    .watch-content p {
+      color: white;
+    }
+  
+    .watch-content {
+        margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+  
+    .product-image {
+        max-width: 100px;
+    }
+  
+    .product-content>ul>li {
+      list-style-type: none;
+      text-align: left;
+    }
+  }
+  @media (max-width: 650px) {
+    .technology-hero_section h2 {
+      font-size: 60px;
+    }
+  }
+  
+  @media (max-width: 490px) {
+    .technology-hero_section h2 {
+      font-size: 50px;
+    }
+  }
+  @media (max-width: 400px) {
+    .technology-hero_section h2 {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 320px) {
+    .technology-hero_section h2 {
+      font-size: 30px;
+    }
+  }
+  /* Media Query for mobile screens */
+  /* @media only screen and (max-width: 768px) {
+    .BGI-1, .BGI-3, .BGI-4, .BGI-5, .watch-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .watch-content {
+      max-width: 100%;
+    }
+  
+    .watch-card {
+      background-position: center;
+      background-size: cover;
+    }
+  } */
+  

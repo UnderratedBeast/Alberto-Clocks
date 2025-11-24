@@ -1,0 +1,13 @@
+.logo-con{
+    /* background-color: red; */
+    margin-top: 50px;
+ 
+}
+.logo-text{
+    margin-bottom: 0;
+    text-align: center;
+}
+.logo-img{
+    width: 80px;
+    height: 80px;
+}

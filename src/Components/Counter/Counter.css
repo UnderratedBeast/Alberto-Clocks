@@ -1,0 +1,17 @@
+.count-nums{
+    display: flex;
+    justify-content: space-between;
+    /* padding-left: 18%;
+    padding-right: 18%; */
+}
+@media (max-width: 1000px) {
+    .count-nums{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+   
+    }
+    .count-nums div{
+        margin-bottom: 17px;
+    }
+}
