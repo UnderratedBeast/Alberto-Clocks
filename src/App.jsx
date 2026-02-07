@@ -11,6 +11,7 @@ import Technology from "./Components/Technology/Technology";
 import Products from "./Components/Products/Products";
 import Checkout from "./Components/checkout/Checkout"; // Import the Checkout component
 import Wishlist from "./Components/wishlist/Wishlist"; // Import the Wishlist component
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 import Home from "./Components/Home/Home";
 
 import { CartProvider } from "./Components/data/CartContext";
@@ -24,6 +25,7 @@ function App() {
         
         <Navigation />
        
+       <ScrollToTop>
         <Routes>
           {/* <Route path="/" element={<Homepage />} /> Ensure this route exists */}
           <Route path="/" element={<Home />} />
@@ -38,6 +40,7 @@ function App() {
           <Route path="/wishlist" element={<Wishlist />} />{" "}
           {/* Add the Wishlist route */}
         </Routes>
+        </ScrollToTop>
         <Footer />
       </Router>
     </CartProvider>
