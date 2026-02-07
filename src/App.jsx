@@ -22,10 +22,10 @@ function App() {
       {" "}
       {/* Ensure this wraps the Router */}
       <Router>
-        
+        <ScrollToTop />
         <Navigation />
        
-       <ScrollToTop>
+       
         <Routes>
           {/* <Route path="/" element={<Homepage />} /> Ensure this route exists */}
           <Route path="/" element={<Home />} />
@@ -40,7 +40,6 @@ function App() {
           <Route path="/wishlist" element={<Wishlist />} />{" "}
           {/* Add the Wishlist route */}
         </Routes>
-        </ScrollToTop>
         <Footer />
       </Router>
     </CartProvider>
