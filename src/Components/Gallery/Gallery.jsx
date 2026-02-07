@@ -1,5 +1,7 @@
 import './Gallery.css'
 import BackToTop from '../BackToTop/BackToTop';
+import { Link } from "react-router-dom";
+
 function Gallery(){
     return(
         <>
@@ -51,7 +53,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Micheal Kors:</b>
        The Michael Kors watch boasts a sleek, modern design, perfect for those looking to make a statement with a stylish yet subtle accessory.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -59,7 +63,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Micheal Kors:</b>
        With its refined leather strap and polished metal case, this watch transitions seamlessly from casual to formal wear.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -67,7 +73,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Micheal Kors: </b>
        The Michael Kors timepiece combines form and function, featuring precise quartz movement and water resistance, ideal for everyday wear.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -75,7 +83,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Micheal Kors: </b>
        Adorned with minimalist detailing, the Michael Kors watch exudes luxury, ideal for the fashion-forward individual.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -83,7 +93,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Micheal Kors: </b>
        This Michael Kors watch captures contemporary trends while maintaining a timeless appeal, making it a must-have for watch enthusiasts.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -91,7 +103,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Citizen Eco-Drive: </b>
        Powered by light, the Citizen Eco-Drive eliminates the need for battery replacements, offering an environmentally conscious choice for the modern wearer.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -99,7 +113,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Citizen Eco-Drive: </b>
        The Citizen Eco-Drive ensures accurate timekeeping with advanced technology, perfect for those who value reliability.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -107,7 +123,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Citizen Eco-Drive: </b>
        Built to last, this watch combines a robust stainless steel case with an elegant design, making it both stylish and durable.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -115,7 +133,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Citizen Eco-Drive: </b>
        With its solar-powered movement and sophisticated appearance, the Citizen Eco-Drive is the epitome of sustainable luxury.With its solar-powered movement and sophisticated appearance, the Citizen Eco-Drive is the epitome of sustainable luxury.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -123,7 +143,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Citizen Eco-Drive: </b>
        The Citizen Eco-Drive is designed to run continuously in any light, offering low-maintenance performance for busy individuals.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -131,7 +153,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Bulova: </b>
        Bulova watches are known for their accurate timekeeping, thanks to their high-performance quartz movement, ensuring reliability.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -139,7 +163,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Bulova:</b>
        With roots in American watchmaking, Bulova blends heritage with modern design, creating timepieces that stand out.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -147,7 +173,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Bulova:</b>
        Bulova watches feature elegant designs, from sleek dress watches to bold chronographs, catering to various styles and occasions.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -155,7 +183,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Bulova:</b>
        Made with premium materials such as stainless steel and sapphire crystal, Bulova watches are designed to withstand daily wear while looking refined.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -163,7 +193,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Bulova:</b>
        Known for pioneering innovation, like the tuning fork technology, Bulova continues to push the boundaries of horology with each new collection.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -171,7 +203,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Rolex:</b>
        Renowned for its impeccable craftsmanship, the Rolex is the ultimate symbol of luxury and success, appealing to connoisseurs of fine watches.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">/
@@ -179,7 +213,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Rolex:</b>
        Rolex watches are handcrafted with precision, using the finest materials, ensuring durability and timeless beauty.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -187,7 +223,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Rolex:</b>
        The Rolex’s classic design features bold lines and an unmistakable logo, making it instantly recognizable around the world.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -195,7 +233,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Rolex:</b>
        Known for its robust mechanics and long-lasting performance, the Rolex stands as a leader in luxury timepieces.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -203,7 +243,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Rolex:</b>
        A Rolex watch is more than just a timepiece; it’s a statement of status, worn by some of the most influential people globally.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -211,7 +253,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Patek Philippe:</b>
        Each Patek Philippe watch is a masterpiece, handcrafted with precision and care, reflecting the brand’s commitment to excellence.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -219,7 +263,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Patek Philippe:</b>
        Known for their classic and refined designs, Patek Philippe watches transcend trends, making them timeless heirlooms.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -227,7 +273,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Patek Philippe:</b>
        Patek Philippe is renowned for its complex mechanical movements, including perpetual calendars and minute repeaters, catering to true watch connoisseurs.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -235,7 +283,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Patek Philippe:</b>
        Owning a Patek Philippe is a mark of prestige, as the brand produces limited quantities, ensuring exclusivity for its wearers.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -243,7 +293,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Patek Philippe:</b>
        With over 180 years of watchmaking heritage, Patek Philippe has introduced some of the most important innovations in horology, earning a reputation as the pinnacle of luxury watches.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -251,7 +303,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Omega:</b>
        Omega watches are synonymous with precision and luxury, renowned for their role in space missions and Olympic timing.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -259,7 +313,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Omega:</b>
        From the Speedmaster to the Seamaster, Omega watches feature iconic designs recognized worldwide for their elegance and functionality.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -267,7 +323,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Omega:</b>
        Equipped with cutting-edge mechanical movements, Omega watches offer unparalleled accuracy and resistance to magnetic fields.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -275,7 +333,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Omega:</b>
        With over a century of watchmaking history, Omega continues to innovate while maintaining its tradition of excellence in horology.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -283,7 +343,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Omega:</b>
        Omega watches are crafted with the finest materials and meticulous attention to detail, making them both luxurious and highly durable.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -291,7 +353,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Smart Watches:</b>
        Smartwatches offer the perfect blend of technology and style, keeping you connected with notifications, fitness tracking, and apps right on your wrist.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -299,7 +363,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Smart Watches:</b>
        From interchangeable straps to customizable digital watch faces, smartwatches allow you to personalize your style and functionality.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -307,7 +373,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Smart Watches:</b>
        With heart rate monitoring, sleep tracking, and activity tracking, smartwatches are perfect companions for maintaining a healthy lifestyle.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -315,7 +383,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Smart Watches:</b>
        Whether answering calls, sending messages, or controlling music, smartwatches make daily tasks more efficient and hands-free.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 <div data-aos="fade-up" class="home-gallery">
@@ -323,7 +393,9 @@ function Gallery(){
    <div class="gallery-text">
        <b>Smart Watches:</b>
        Smartwatches sync effortlessly with smartphones, making them an essential accessory for tech-savvy users who want to stay productive on the go.
-       <button class="contact-btn">Contact Us</button>
+       <Link to="/contact" className="contact-btn">
+  Contact Us
+</Link>
    </div>
 </div>
 </div>

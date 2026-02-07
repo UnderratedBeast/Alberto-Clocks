@@ -152,7 +152,8 @@ const Contact = () => {
       <div className="firstbody">
         <div className="cont">
           <img
-            src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/1.png"
+            src="https://i.pinimg.com/736x/2d/dc/74/2ddc74f8c2f30c7716dc8a7cb34de9e0.jpg"
+            // src="https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/1.png"
             alt="Contact"
           />
           <div className="form">
